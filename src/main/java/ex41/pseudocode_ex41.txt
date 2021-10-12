@@ -1,0 +1,19 @@
+
+Arraylist names to store the names from input
+counter initialized to o
+File input = new File("src/main/java/ex41/exercise41_input.txt");
+
+while(nl.hasNextLine())
+        {
+            get string from scanner
+            add string to arraylist (names)
+            print the name
+            count++
+        }
+
+SORT ARRAYLIST: COLLECTIONS.SORT(names);
+
+1. Create output file
+2. Write header text into output file
+3. Print Arraylist into output file
+

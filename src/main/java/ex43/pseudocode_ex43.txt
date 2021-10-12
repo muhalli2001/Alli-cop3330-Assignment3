@@ -1,0 +1,26 @@
+MAIN:
+
+System.out.println("Site Name: ");
+        SiteName = scan.nextLine();
+        if(!SiteName.equals(""))
+        continue with the code
+        else, print("invalid name")
+
+        * Inside if statement, create website folder && name folder where name is the user input
+
+        public static void createWebsiteFolder()
+
+        public static void createNameFolder()
+
+        * Ask if they want js, if y or Y, CALL public static void createJs_Css_Folder()
+        * Ask the same for css, CALL same function, change parameter to css rather than js
+
+        create index.html file.
+
+METHODS:
+
+public static void createWebsiteFolder()
+
+public static void createNameFolder()
+
+public static void createJs_Css_Folder()

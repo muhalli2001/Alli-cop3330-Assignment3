@@ -1,0 +1,36 @@
+public class Employee {
+     String First;
+     String Last;
+     String Salary;
+}
+Main:
+
+1. Print the header for the table
+
+2. Create array of employee and call ReadEmployeeList()
+
+3. Now we have a full list of employees
+
+4. We can print the array until it goes null
+
+        while(Input[i]!=null)
+                {
+                    System.out.printf("%10s %10s %10s\n", Input[i].First, Input[i].Last, Input[i].Salary);
+                    i++;
+                }
+
+ReadEmployeeList:
+
+1. Open and read in.txt file at correct filepath
+2. Make sure to split at a comma instead of a space due to the formatting of the input file.
+3. for every iteration of: while (scanIn.hasNext()) where scanIn is the name of a Scanner Object reading from the file
+        store the corresponding value for temp into the employee class structure
+ String[] temp = s.split(",");
+
+                   a[i] = new Employee();
+                   a[i].First = temp[0];
+                   a[i].Last = temp[1];
+                   a[i].Salary = temp[2];
+                   i++;
+
+4. return Employee[]

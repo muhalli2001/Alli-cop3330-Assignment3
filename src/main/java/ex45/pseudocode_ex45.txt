@@ -1,0 +1,18 @@
+MAIN
+Scan File (pathname) input.txt
+
+Declare list arraylist so it will be easier to manipulate each element
+ArrayList<String> list = new ArrayList<String>();
+
+FOR(i=0;i<list-size;i++)
+DO: check if(list.get(i).equals("utilize")||list.get(i).equals("utilizes"))
+&& check that condition for utilize / utilizes within quotes.
+
+SET list[i] to "use" or "use" inside quotes
+
+ask for file name METHOD: filepath();
+
+write output file in package, name it the inputted file name
+
+METHODS
+method: request name for the output file

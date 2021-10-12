@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class App {
+    class Main()
+
+    (Methods)
+    public static void createJs_Css_Folder(String type,String SiteName)
+    public static void createNameFolder(String SiteName)
+    public static void createWebsiteFolder()
+}
+
+
+
+@enduml

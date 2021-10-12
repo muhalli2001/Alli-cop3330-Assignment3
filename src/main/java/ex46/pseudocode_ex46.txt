@@ -1,0 +1,21 @@
+MAIN
+
+* use a treemap to store the "keys" or words in the sequence because it will be easier to find them with a value
+* I can hold a key (word) and the value could be the amount of times it shows up.
+
+        TreeMap<String,Integer> words = new TreeMap<String,Integer>();
+
+1. set scanner onto the filepath
+2. loop through the whole file, use sc.hasnext() so it only stops at spaces
+3. every iteration, check if the key exists. If it does, add to the value
+4. if the key doesn't exist, add the key, set the value to one
+
+METHODS
+
+Change the value associated with a key to a string of stars:
+for i -> value-1
+{
+    string s = s + *;
+}
+
+return s;
